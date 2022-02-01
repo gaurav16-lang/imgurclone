@@ -54,10 +54,15 @@
 
                 <div class="search">
 
-                    <input type="text" placeholder="images,#tags,@users oh my!">
+                    <input type="text" placeholder="images,#tags,@users oh my!" oninput="debounce(main,1000)"
+                        id="searchbox">
                     <div><img
                             src="https://s.imgur.com/desktop-assets/desktop-assets/icon-search.8d0f9b564a4659d48d8eca38b968a7f2.svg"
                             alt=""></div>
+
+                </div>
+                <div id="dropdown">
+
                 </div>
 
             </div>

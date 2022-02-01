@@ -145,3 +145,17 @@ background-color: #2e3035;
     width: 100%;
     
 }
+ 
+#dropdown {
+    height: 300px;
+    position: absolute;
+    z-index: 1;
+    width: 34.85%;
+    border: 1px solid white;
+    overflow: scroll;
+    border-top: none;
+    display: none;
+    background-color: #09032c;
+    left: 33.1%;
+    top: 76%;
+}
